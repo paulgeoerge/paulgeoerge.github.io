@@ -1,0 +1,164 @@
+.message {
+    width: 1000px;
+    height: 1500px;
+    background-color: cornflowerblue;
+    padding: 20px;
+    margin: 50px auto;
+}
+.message .border{
+    width: 960px;
+    height: 1460px;
+    background-color: white;
+}
+.left {
+    float: left;
+    width: 400px;
+    height: 1460px;
+    background-color: #666666;
+}
+
+.left-head {
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    background-color: white;
+}
+
+.left-head .image{
+    width: 360px;
+    height: 360px;
+    overflow: hidden;
+    padding-left: 20px;
+}
+.left-head .image img{
+    height: 100%;
+    border-radius: 50%;
+}
+
+.title-one, .title-two{
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+    color: cornflowerblue;
+}
+.title-one {
+    height: 60px;
+    line-height: 60px;
+}
+
+.title-two {
+    height: 30px;
+    line-height: 30px;
+}
+
+.number, .information, .evaluate{
+    width: 400px;
+    background-color: white;
+
+}
+.number{
+    padding-top: 20px;
+    height: 250px;
+}
+
+.number .number-head, .information .information-head, .evaluate .evaluate-head, .background .background-head, .experience .experience-head, .book .book-head, .honor .honor-head{
+    margin-left: 20px;
+    height: 50px;
+    width: 200px;
+    line-height: 50px;
+    color: white;
+    background-color: cornflowerblue;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.number .number-content, .number .number-content ul{
+    height: 180px;
+}
+
+.number .number-content ul, .information .information-content ul, .evaluate .evaluate-content ul{
+    margin-left: 80px;
+    padding: 60px 0;
+}
+
+.number .number-content ul li, .information .information-content ul li, .evaluate .evaluate-content ul li{
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    list-style-type: disc;
+}
+
+.information {
+    height: 280px;
+}
+
+.information .information-content, .information .information-content ul{
+    height: 230px;
+}
+
+.evaluate{
+    height: 440px;
+}
+
+.evaluate .evaluate-content, .evaluate .evaluate-content ul{
+    padding-right: 20px;
+    height: 390px;
+}
+
+.right {
+    float: left;
+    width: 560px;
+    height: 1460px;
+    background-color: pink;
+}
+.background, .experience, .honor, .book{
+    width: 560px;
+    background-color: white;
+}
+.background{
+    height: 400px;
+    padding-top: 20px;
+}
+
+.background .background-content{
+    padding-left: 70px;
+    padding-right: 20px;
+}
+
+.background-content div{
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.experience{
+    height: 620px;
+    padding-top: 20px;
+}
+
+
+.experience .experience-content{
+    font-size: 30px;
+    padding: 20px 20px 0 70px;
+}
+
+.experience .experience-content span{
+    font-weight: 700;
+}
+
+.experience .experience-content div{
+    padding: 20px 0 20px;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.honor{
+    height: 250px;
+}
+.honor .honor-content, .book .book-content{
+    padding: 20px 20px 0 70px;
+    font-size: 30px;
+}
+
+.book{
+    height: 190px;
+}
